@@ -1,7 +1,4 @@
-import { foo, bar } from './globals'
+import { foo, bar } from './utils'
 
-const fooResult = foo()
-const barResult = bar()
-
-console.log('foo result:', fooResult)
-console.log('bar result:', barResult)
+console.log(foo())
+console.log(bar())

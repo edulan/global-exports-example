@@ -9,7 +9,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: require.resolve('./src/globals.js'),
+        test: require.resolve('./lib/utils.js'),
         use: 'exports-loader?foo=foo,bar=bar'
       }
     ]
